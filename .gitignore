@@ -1,0 +1,14 @@
+# office docs & spreadsheets
+*.doc
+*.docx
+*.dotx
+*.xls
+*.xlsx
+*.xlsm
+*.csv  # if your CSVs might contain PII, keep ignored
+
+# local/temporary
+/private/
+~$*                 # Office temp files
+.DS_Store
+Thumbs.db
